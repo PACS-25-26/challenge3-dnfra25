@@ -25,6 +25,7 @@ The goal of this project is to study the performance and scalability of a hybrid
 
 ## Project Structure
 
+```text
 jacobi_solver/
 ├── main.cpp              # MPI + OpenMP Jacobi solver
 ├── grid.h / grid.cpp     # Grid data structure (flattened 2D domain)
@@ -34,13 +35,12 @@ jacobi_solver/
 ├── solver                # Executable
 ├── test/
 │   ├── run_tests.sh      # Automated scalability test
-│   ├── plot.py           # Visualization scripts
+│   ├── plot.py           # Visualization script
 │   ├── results.csv       # Raw performance data
 │   ├── RESULT.md         # Performance analysis
 │   ├── hw.info           # Hardware specification
 │   ├── time.png
 │   ├── speedup.png
-
 ---
 
 ## Numerical Method
